@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/script.js"></script>
+    <title>Hit the packets!</title>
+</head>
+<body onload="initGame()">
+    <header>
+        <h1>Hit the packets!</h1>
+        <h3>Strategy game</h3>
+    </header>
+    <section>
+        <table id="gameBoard">
+        </table>
+        <br>
+        <button onclick="startGame()">New Game</button>
+        Score: <span id="score">0</span>
+        <button onclick="gameMove()">Next action</button>
+        <h3>Game rules:</h3>
+        1. The game is played on a n x n board (n defined in config).<br>
+        2. Your goal is to hit all the packets before they fall to the bottom.<br>
+        3. Yellow windows are your bullets. <br>
+        4. When you click on them you shoot your bullet and the packets fall.<br>
+        6. You can go to next action by clicking on the Next action button.<br>
+        7. If you hit them, you get points and they become red.<br>
+        8. Game ends when all packets are red or when you run out of ammunition.<br>
+    </section>
+    <footer>
+        <p>Game - hit the packets</p>
+        <a href="https://github.com/SuchV">Author: SuchV</a>
+    </footer>
+</body>
+</html>

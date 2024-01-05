@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+td, r {
+    margin: auto;
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+table {
+    margin: auto;
+    border: 1px solid #666;
+    border-collapse: collapse;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
